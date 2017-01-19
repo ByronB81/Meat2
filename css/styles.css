@@ -25,3 +25,22 @@ p.author {
   width: 300px;
   float: left;
 }
+
+.wrap {
+  width: 100%;
+  min-width:640px;
+}
+
+.left {
+  float: left;
+  width: 200px;
+}
+
+.middle {
+  margin: 0 300px;
+}
+
+.right {
+  float: right;
+  width: 420px;
+}
