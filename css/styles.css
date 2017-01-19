@@ -1,12 +1,9 @@
 p {font-family: sans-serif;}
 
-p.top {
-
-}
-
 p.intro {
   width: 50%;
   font-style: italic;
+  color: violet;
 }
 
 p.author {
