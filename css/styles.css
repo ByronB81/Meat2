@@ -13,3 +13,10 @@ p.author {
 }
 
 p.flesh {}
+
+.sidebar {
+  width:20%;
+  float: right;
+  padding: 10px;
+  background-color: PaleGoldenRod;
+}
