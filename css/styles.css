@@ -12,11 +12,16 @@ p.author {
   font-weight: bold;
 }
 
-p.flesh {}
-
 .sidebar {
+  background-color: PaleGoldenRod;
+  height: 100%;
   width:20%;
   float: right;
   padding: 10px;
-  background-color: PaleGoldenRod;
+  border: 2px so
+}
+
+.column {
+  width: 300px;
+  float: left;
 }
