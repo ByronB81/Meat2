@@ -70,9 +70,14 @@ p.just {
   border: solid lightskyblue;
 }
 
-@media screen and(max-width: 768) {
+@media screen and(max-width: 1200) {
   body{
     background-color: purple;
   }
+}
 
+@media screen and(max-width: 568) {
+  body{
+    background-color: teal;
+  }
 }
