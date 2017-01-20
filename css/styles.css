@@ -27,25 +27,52 @@ p.just {
 
 }
 
+.sidebar2 {
+  background-color: PaleGoldenRod;
+  height: 65%;
+  width:20%;
+  float: left;
+  padding: 10px;
+  border: 2px solid green;
+
+}
+
 .wrap {
   width: 100%;
   min-width:640px;
   padding-top: 15px;
+  padding-bottom: 15px;
   background-color: lightcyan;
 }
 
 .left {
   float: left;
   width: 200px;
+  padding-left: 4px;
+  padding-right: 4px;
+  border: solid lightskyblue;
 }
 
 .middle {
   margin: 0 360px;
   width: 200px;
+  padding-left: 4px;
+  padding-right: 4px;
+  border: solid lightskyblue;
 }
 
 .right {
   float: right;
   width: 200px;
+  padding-left: 4px;
+  padding-right: 4px;
   margin-right:300px;
+  border: solid lightskyblue;
+}
+
+@media screen and(max-width: 768) {
+  body{
+    background-color: purple;
+  }
+
 }
